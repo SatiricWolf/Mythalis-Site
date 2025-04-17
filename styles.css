@@ -43,3 +43,22 @@ footer {
   font-size: 0.8rem;
   color: #888;
 }
+/* === Header Animation === */
+@keyframes glowPulse {
+  0% {
+    text-shadow: 0 0 5px #cc99ff, 0 0 10px #cc99ff, 0 0 15px #663399;
+    transform: scale(1);
+  }
+  50% {
+    text-shadow: 0 0 15px #ffcc66, 0 0 25px #ff9966, 0 0 35px #ff9966;
+    transform: scale(1.02);
+  }
+  100% {
+    text-shadow: 0 0 5px #cc99ff, 0 0 10px #cc99ff, 0 0 15px #663399;
+    transform: scale(1);
+  }
+}
+
+h1 {
+  animation: glowPulse 3s infinite ease-in-out;
+}
