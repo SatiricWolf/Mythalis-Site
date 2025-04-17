@@ -1,0 +1,45 @@
+/* === Mythalis Stylesheet === */
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #1b1b1b;
+  padding: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #444;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #cc99ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc66;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  background: #1b1b1b;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #888;
+}
